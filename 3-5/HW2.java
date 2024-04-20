@@ -1,5 +1,6 @@
 
 public class HW2 {
+
     // dizide her karakteri n kadar alfabede kaydırılıyor
     public static String replaceLetters(String text, int n) {
         StringBuilder stringBuilder = new StringBuilder();
@@ -18,6 +19,7 @@ public class HW2 {
         return stringBuilder.toString();
     }
 
+
     // stringin başındaki ve sonundaki boşlukları siler ve stringi döndürür
     public static String stripFromBothEnd(String text) {
         int start = 0, end = text.length() - 1;
@@ -33,6 +35,7 @@ public class HW2 {
         }
         return sb.toString();
     }
+
 
     // stringden tekrar eden karakterleri siler stringi döndürür
     public static String removeRepeatingChars(String text) {
