@@ -47,6 +47,7 @@ public class calismaOrtami {
         String ii = "Java Programming" + " is fun"; // String birleştirme işlemi yapılabilir
         System.out.println(i);
         System.out.println(ii); 
+        System.out.println("İnteger max value = " + c ); //string ile int değeri + ile birleştirebiliriz
 
     }
 }

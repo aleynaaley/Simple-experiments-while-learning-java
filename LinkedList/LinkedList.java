@@ -46,7 +46,7 @@ public class LinkedList<T> {
   {
     if(isEmpty())
     {
-      throw new NoSuchElementException("list is empty")
+      throw new NoSuchElementException("list is empty");
     }
     
     LLNode<T> current = firstNode; 
